@@ -12,31 +12,100 @@
         p {
             font-family: sans-serif;
         }
+        
+        td.table-heading {
+            font-weight: bold;
+        }
     </style>
 
 </head>
 
 <body>
+    
     <h1>
-      Your monthly community update.
+      Community board Manhattan 09 - monthly update
     </h1>
+    
+    <p>Hi there,</p>
+
+    <p>
+This information is provided by Beta NYC, a civic organizing force for local civic engagement, civic hacking, and open government advocacy and this data has been prepared using NYC 311 data, 
+    powered by <a href="http://www.socrata.com/" target="_blank">Socrata</a>.
+	</p>
+    
+    <p>
+        If you have any complaints regarding your landlord, please report via our
+        <a href='https://docs.google.com/forms/d/1noJ6T_fI922Po1qc3kNT6xfNYAkr9sjXLTsfBd5rQcE/viewform'>online form</a>.
+    </p>
+    
+    <p>
+Please let us know if you have any feedback by responding to this email address. 
+    </p>
+    
+    <p>Thanks!</p>
+    
+    <h3>Heating Complaints</h3>
+    
+    <table>
+        <table>
+        <tr>
+            <td class='table-heading'>Year/Month</td>
+            <td class='table-heading'>#Open</td>
+            <td class='table-heading'>#Closed</td>
+        </tr>
+        <tr>
+            <td>{{MONTH_0}}</td>
+            <td>199</td>
+            <td>536</td>
+        </tr>
+            
+        <tr>
+            <td>{{MONTH_1}}</td>
+            <td>265</td>
+            <td>557</td>
+        </tr>    
+            
+        <tr>
+            <td>{{MONTH_2}}</td>
+            <td>460</td>
+            <td>525</td>
+        </tr>    
+    </table>
+    
+    <br>
+    
+    <div><iframe width="500px" title="heating graph" height="425px" src="https://data.cityofnewyork.us/w/rf79-ywa6/25te-f2tw?cur=YjtBN6r4-3E&from=root" frameborder="0" scrolling="no"><a href="https://data.cityofnewyork.us/Social-Services/heating-graph/rf79-ywa6" title="heating graph" target="_blank">heating graph</a></iframe></div>
     
     <h3>Plumbing Complaints</h3>
     
-    <div>
-        <iframe width="500px" title="Plumbing Complaints" height="425px" src="https://data.cityofnewyork.us/w/tabm-fyde/25te-f2tw?cur=yygsbOYO_Fy&from=root" frameborder="0" scrolling="no">
-            <a href="https://data.cityofnewyork.us/Social-Services/Plumbing-Complaints/tabm-fyde" title="Plumbing Complaints" target="_blank">Plumbing Complaints</a>
-        </iframe>
-        <p>
-            <a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a>
-        </p>
-    </div>
-    
-    <h3>Test</h3>
-    
-    <img src='{{image_name}}' width='400' height='400' />
-    
-    <p>
-     Test email.
-    </p>
+    <table>
+        <table>
+        <tr>
+            <td class='table-heading'>Year/Month</td>
+            <td class='table-heading'>#Open</td>
+            <td class='table-heading'>#Closed</td>
+        </tr>
+        <tr>
+            <td>{{MONTH_0}}</td>
+            <td>115</td>
+            <td>9</td>
+        </tr>
+            
+        <tr>
+            <td>{{MONTH_1}}</td>
+            <td>194</td>
+            <td>45</td>
+        </tr>    
+            
+        <tr>
+            <td>{{MONTH_2}}</td>
+            <td>165</td>
+            <td>14</td>
+        </tr>    
+    </table>
+        
+    <br>
+        
+    <div><iframe width="500px" title="plumbing grapoh" height="425px" src="https://data.cityofnewyork.us/w/7z8h-ksef/25te-f2tw?cur=-nrJgUrWKGV&from=root" frameborder="0" scrolling="no"><a href="https://data.cityofnewyork.us/Social-Services/plumbing-grapoh/7z8h-ksef" title="plumbing grapoh" target="_blank">plumbing graph</a></iframe></div>
+        
 </body>
